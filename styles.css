@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #000000;
-    --accent-color: #fa0000;
-    --background-color: #f8f9fa;
+    --primary-color: #3B577D;
+    --secondary-color: #C0D9E5;
+    --accent-color: #44679F;
+    --background-color: #ffffff;
     --text-color: #000000;
 }
 
@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     background-color: var(--background-color);
-    padding-top: 80px;
+    padding-top: -10px;
 }
 
 .navbar {
@@ -19,13 +19,13 @@ body {
 }
 
 .navbar-brand {
-    color: var(--text-color) !important;
-    font-weight: 700;
-    letter-spacing: 1px;
+    color: white !important;
+    font-weight: 1000;
+    letter-spacing: 0px;
 }
 
 .nav-link {
-    color: rgba(0, 0, 0, 0.8) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
     transition: color 0.3s ease;
 }
 
@@ -35,18 +35,43 @@ body {
 
 section {
     padding: 100px 0;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+#home {
+    background-color: var(--background-color);
+}
+
+#our-work {
+    background-color: var(--primary-color);
+    
+}
+#our-work-h2 {
+    color: var(--background-color);
+}
+
+#testimonials {
+    background-color: var(--background-color);
+}
+
+#request-budget {
+    background-color: var(--secondary-color);
+}
+
+#contact {
+    background-color: var(--background-color);
 }
 
 h1, h2, h3 {
     color: var(--text-color);
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 .btn-primary {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-color: var(--secondary-color);
     transition: all 0.3s ease;
 }
@@ -68,10 +93,10 @@ h1, h2, h3 {
 }
 
 .project-card .card-body {
-    background-color: var(--primary-color);
+    background-color: white;
     color: var(--text-color);
     padding: auto;
-    margin: 10px;
+    margin: 30px;
     border-radius: 10px;
 }
 
@@ -82,7 +107,6 @@ h1, h2, h3 {
 }
 
 .testimonial-card .card-body::before {
-    content: '';
     font-size: 5rem;
     color: var(--text-color);
     opacity: 0.2;
@@ -92,28 +116,29 @@ h1, h2, h3 {
 }
 
 #budget-form {
-    max-width: 600px;
+    max-width: 6000px;
     margin: 0 auto;
+    align-items: flex-start;
 }
 
 #budget-form .form-control {
-    background-color: rgba(252, 44, 44, 0.1);
-    border: rgb(0, 0, 0);
+    background-color: rgba(248, 248, 248, 0.74);
+    border: rgb(3, 2, 2);
     color: rgb(0, 0, 0);
 }
 
 #budget-form .form-control::placeholder {
-    color: rgba(255,255,255,0.6);
+    color: rgba(185, 173, 173, 0.6);
 }
 
 footer {
     margin-top: auto;
     background-color: var(--primary-color);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .social-icon {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     margin-right: 15px;
     transition: color 0.3s ease;
@@ -121,29 +146,4 @@ footer {
 
 .social-icon:hover {
     color: var(--accent-color);
-}
-
-/* Geometric shapes for visual interest */
-.shape-1, .shape-2 {
-    position: absolute;
-    opacity: 0.1;
-    z-index: -1;
-}
-
-.shape-1 {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: var(--secondary-color);
-    top: -150px;
-    right: -150px;
-}
-
-.shape-2 {
-    width: 200px;
-    height: 200px;
-    background-color: var(--accent-color);
-    bottom: 50px;
-    left: -90px;
-    transform: rotate(45deg);
 }

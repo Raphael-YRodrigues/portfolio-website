@@ -1,16 +1,26 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Sample projects data
     const projects = [
-        { title: 'Task Automation System', description: 'Developed a custom task automation system for a large corporation.' },
-        { title: 'Machine Learning Model', description: 'Created a predictive model for sales forecasting using machine learning.' },
-        { title: 'E-commerce Website', description: 'Designed and developed a fully functional e-commerce website with advanced features.' },
-        { title: 'Ad Management System', description: 'Developed a custom ad management system for a local newspaper.' },
+        { title: 'Automação de Tarefas', description: 'Developed a custom task automation system for a large corporation.' },
+        { title: 'Automação de Marketing Digital', description: 'Created a predictive model for sales forecasting using machine learning.' },
+        { title: 'Automação de logistica', description: 'Designed and developed a fully functional e-commerce website with advanced features.' },
+        { title: 'Automação de Processos de Negócios', description: 'Developed a custom ad management system for a local newspaper.' },
+        { title: 'Web Scraping e Análise de Dados', description: 'Developed a custom ad management system for a local newspaper.' },
+        { title: 'Chatbots e Assistentes Virtuais', description: 'Developed a custom ad management system for a local newspaper.' },
     ];
 
     // Sample testimonials data
     const testimonials = [
         { name: 'John Doe', company: 'ABC Corp', text: 'Excellent service! The team delivered beyond our expectations.' },
-        { name: 'Jane Smith', company: 'XYZ Inc', text: 'Their expertise in data intelligence has transformed our business processes.' }
+        { name: 'Jane Smith', company: 'XYZ Inc', text: 'Their expertise in data intelligence has transformed our business processes.' },
+        { name: 'John Doe', company: 'ABC Corp', text: 'Excellent service! The team delivered beyond our expectations.' },
+        { name: 'Jane Smith', company: 'XYZ Inc', text: 'Their expertise in data intelligence has transformed our business processes.' },
+        { name: 'John Doe', company: 'ABC Corp', text: 'Excellent service! The team delivered beyond our expectations.' },
+        { name: 'Jane Smith', company: 'XYZ Inc', text: 'Their expertise in data intelligence has transformed our business processes.' },
+        { name: 'John Doe', company: 'ABC Corp', text: 'Excellent service! The team delivered beyond our expectations.' },
+        { name: 'Jane Smith', company: 'XYZ Inc', text: 'Their expertise in data intelligence has transformed our business processes.' },
+        { name: 'John Doe', company: 'ABC Corp', text: 'Excellent service! The team delivered beyond our expectations.' },
+        { name: 'Jane Smith', company: 'XYZ Inc', text: 'Their expertise in data intelligence has transformed our business processes.' },
     ];
 
     // Populate projects
